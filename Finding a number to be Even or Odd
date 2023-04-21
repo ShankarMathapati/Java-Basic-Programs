@@ -1,0 +1,21 @@
+package prgm;
+import java.util.Scanner;
+
+public class demo {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		
+		if(n % 2 <= 0)
+		{
+			System.out.println("It is a Even number.");
+		}
+		else
+		{
+			System.out.println("It is a Odd number.");
+		}
+}	
+}	
+
