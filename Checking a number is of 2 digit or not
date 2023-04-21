@@ -1,0 +1,20 @@
+package prgm;
+import java.util.Scanner;
+
+public class demo {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		
+		if(10 <= n & n <= 99)
+		{
+			System.out.println("Yes, the number is a 2 digit number.");
+		}
+		else
+		{
+			System.out.println("No, the number is not a 2 digit number.");
+		}
+}	
+}	
